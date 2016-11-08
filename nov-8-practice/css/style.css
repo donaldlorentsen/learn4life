@@ -1,0 +1,26 @@
+article{
+  width: 55%;
+  float: left;
+
+}
+body{
+  background-color: purple;
+}
+footer{
+  background-color: blue;
+}
+aside{
+  width: 25%;
+  float: right;
+}
+li{
+  background-color: red;
+}
+p{
+background-color: white;
+}
+main::after{
+  content: '';
+  display: block;
+  clear: both;
+}
