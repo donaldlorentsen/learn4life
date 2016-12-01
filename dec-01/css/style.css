@@ -1,0 +1,25 @@
+ @IMPORT url('https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet')
+#simple{
+  background-image: url(../img/ipad-landscape.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+#simple::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+#simple div{
+  width: 50%;
+  float: right;
+  padding: 25px;
+  box-sizing: border-box;
+}
+#simple hr{
+  width: 50px;
+  float: left;
+}
+#simple a {
+  text-transform: uppercase;
+  font-size: 80%
+}
