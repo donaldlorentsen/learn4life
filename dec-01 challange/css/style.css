@@ -1,0 +1,9 @@
+#colorful{
+  background-size: 95%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#colorful a{
+  text-transform: uppercase;
+  font-size: 80%;
+}
